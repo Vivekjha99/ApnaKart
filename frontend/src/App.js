@@ -117,6 +117,7 @@ function App() {
         <ProtectedRoute exact path="/orders" component={MyOrders} />
 
         <ProtectedRoute exact path="/order/confirm" component={ConfirmOrder} />
+        <ProtectedRoute exact path="/process/payment" component={Payment} />
 
         <ProtectedRoute exact path="/order/:id" component={OrderDetails} />
 
